@@ -48,7 +48,13 @@
                     </div>
 
                 <!-- this section is button, 3 lines, title -->
-                <div class="flex items-center space-x-4"></div>
+                <div class="flex items-center space-x-4">
+                    <button class="p-2 rounded-full hidden sm:block">
+                    
+                   </button>
+                   <img src="./images/profile-pic.jpg" alt="Description of the image" class="rounded-full w-9 h-9 hidden sm:block lg:hidden">
+                   
+                </div>
 
             </main>
         </div>
