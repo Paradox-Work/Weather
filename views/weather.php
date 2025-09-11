@@ -10,35 +10,35 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
         <div class="min-h-screen pl-6 pr-6 max-w-full bg-gray-100">
-            <header class="flex justify-between items-center bg-gray-600  shadow-md rounded-b-lg px-4 py-6 sticky top-0 inset-x-0 mx-auto z-50">
+            <header class="flex justify-between items-center bg-white   shadow-md rounded-b-lg px-4 py-6 sticky top-0 inset-x-0 mx-auto z-50">
 
    <!-- this section is button, 3 lines, title -->
                 <div class="flex items-center">
-                    <!-- this section is button, 3 lines, title -->
+                    <!-- 3 LINES like menu or sum -->
                     <button class="p-2 mr-3">
-                        <!-- this section is button, 3 lines, title -->
+                        <!-- 3 line image -->
                         <svg class="text-gray-600 w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <!-- this section is button, 3 lines, title -->
+                            <!-- Something that also makes 3 line exist, the creator of it* prob -->
                             <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                         </svg>
                     </button>
-                    <!-- this section is button, 3 lines, title -->
+                    <!-- Webpage title -->
                     <h1 class="text-2xl font-semibold text-blue-500 mr-3 cursor-pointer hidden md:block">VTDT Sky</h1>
-                    <!-- this section is button, 3 lines, title -->
-                    <img src="./images/google-maps.gif" alt="Description of the image" class="w-6 h-6 ml-4 md:ml-6 lg:ml-8 xl:ml-14 hidden md:block">
-                    <!-- this section is button, 3 lines, title -->
-                    <span class="text-white text-gray-800 ml-1 hidden md:block">Riga, Latvia</span>
+                    <!-- Just fancy logo next to it FILLED-->
+                    <img src="./images/google-maps.gif" alt="doodoo" class="w-6 h-6 ml-4 md:ml-6 lg:ml-8 xl:ml-14 hidden md:block">
+                    <!-- Location title, must replace with json!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                    <span class="text-gray-800 text-gray-800 ml-1 hidden lg:block">Riga, Latvia</span>
                 </div>
 
                     <!-- this section is searchbar + toggle mode button, has svg, img, path d, form / button svg path d span -->
                     <div class="flex items-center space-x-4">
                         <div class="relative flex items-center">
-                            <!-- this section is button, 3 lines, title -->
+                            <!-- Form obviously of the searchbar -->
                             <form>
-                                <!-- this section is button, 3 lines, title -->
-                                <input type="text" placeholder="Search Location" class="pl-10 pr-10 py-2 border-2 border-gray-300 rounded-lg text-sm w-full max-w-full min-w-[153px] " value="Cēsis">
-                                    <!-- this section is button, 3 lines, title -->
-                                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Input container -->
+                                <input type="text" placeholder="Search Location"  class="absolute inset-0 pl-10 pr-10 py-2 border-2 border-gray-300 rounded-lg w-full h-full text-sm"value="Cēsis">
+                                    <!-- Picture must be filled -->
+                                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24" xmlns="./images/worldwide.gif">
                                         <!-- this section is button, 3 lines, title -->
                                         <path d="M11 2a9 9 0 1 0 6.293 15.293l4.707 4.707a1 1 0 0 0 1.414-1.414l-4.707-4.707A9 9 0 0 0 11 2zM11 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14z"></path>
                                     </svg>
