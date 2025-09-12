@@ -77,8 +77,37 @@
 
             </header>
             <main class="mt-10">
-             
-
+             <div class="flex max-w-[100%] mx-auto">
+                <div class="w-[60%] ${isDarkMode ? 'bg-gray-800 ' : 'bg-gray-100 '}`} pe-8 responsive-width">
+                    <!-- Current time, weather,  -->
+                    <section class="bg-white p-6 rounded-lg shadow-md mb-6">
+                        <div class="flex flex-wrap justify-between">
+                            <div class="w-full sm:w-auto">
+                                <div class="text-sm text-gray-800">Current Weather</div>
+                                <div class="text-lg font-medium text-black-700">Local time: 5:10 PM</div>
+                                <div class="flex items-center">
+                                    <img class="w-12 h-12" src="./images/176.jpg" alt="Weather Icon">
+                                    <div class="text-5xl font-semibold text-black pl-3">13.8</div>
+                                    <p class="text-2xl font-semibold text-gray-800  pr-2 mb-2">°C</p>
+                                    <div class="flex flex-col text-sm text-gray-500 pl-6">
+                                        <div class="text-gray-800">Patchy rain nearby</div>
+                                        <div class="text-gray-900">Feels Like 12.1°C</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full 440px:w-auto mt-4 sm:mt-0 text-gray-600"></div>
+                        </div>
+                        <p class="mt-4 text-gray-800"></p>
+                    </section>
+                    <!-- Air quality, wind, humidity, vissibility, pressure x2 -->
+                    <section class="grid grid-cols-2 gap-6 lg:grid-cols-3 mb-6"></section>
+                    <!-- this section is button, 3 lines, title -->
+                    <div class="flex justify-start items-center mb-4 block 982px:hidden "></div>
+                    <!-- Sun and Moon summary?  -->
+                    <section class="bg-white text-gray-800 p-6 rounded-lg shadow-md pb-14"></section>
+                </div>
+                <div class="relative w-[40%] bg-white text-gray-800 p-6 rounded-lg shadow-md hidden 982px:block"></div>
+             </div>
             </main>
         </div>
     </div>
