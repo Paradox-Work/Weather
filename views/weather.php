@@ -34,16 +34,16 @@
                     <div class="flex items-center space-x-4">
                         <div class="relative flex items-center">
                             <!-- Form obviously of the searchbar -->
-                            <form>
-                                <!-- Input container -->
-                                <input type="text" placeholder="Search Location"  class="absolute inset-0 pl-10 pr-10 py-2 border-2 border-gray-300 rounded-lg w-full h-full text-sm"value="Cēsis">
-                                    <!-- Picture must be filled -->
-                                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24" xmlns="./images/worldwide.gif">
-                                        <!-- this section is button, 3 lines, title -->
-                                        <path d="M11 2a9 9 0 1 0 6.293 15.293l4.707 4.707a1 1 0 0 0 1.414-1.414l-4.707-4.707A9 9 0 0 0 11 2zM11 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14z"></path>
-                                    </svg>
-                                        <!-- this section is button, 3 lines, title -->
-                                        <img src="./images/worldwide.gif" alt="Description of the image" class="absolute right-2.5 top-1/2 transform -translate-y-1/2 w-6 h-6  z-10">
+                            <form> 
+                                <!-- Input container --> 
+                                <input type="text" placeholder="Search Location" class="pl-10 pr-10 py-2 border-2 border-gray-300 rounded-lg text-sm w-full max-w-full min-w-[153px] " value="Cēsis"> 
+                                    <!-- Picture must be filled --> 
+                                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-600" fill="currentColor" viewBox="0 0 24 24" xmlns="./images/worldwide.gif"> 
+                                        <!-- this section is button, 3 lines, title --> 
+                                        <path d="M11 2a9 9 0 1 0 6.293 15.293l4.707 4.707a1 1 0 0 0 1.414-1.414l-4.707-4.707A9 9 0 0 0 11 2zM11 4a7 7 0 1 1 0 14 7 7 0 0 1 0-14z"></path> 
+                                    </svg> 
+                                <!-- this section is button, 3 lines, title -->
+                                <img src="./images/worldwide.gif" alt="Description of the image" class="absolute right-2.5 top-1/2 transform -translate-y-1/2 w-6 h-6 z-10"> 
                             </form>
                             <!-- this section is button, 3 lines, title -->
                             <div class="absolute right-0.5 bg-gray-100 w-10 h-[90%] rounded-r-lg"></div>
@@ -77,37 +77,8 @@
 
             </header>
             <main class="mt-10">
-             <div class="flex max-w-[100%] mx-auto">
-                <div class="w-[60%] ${isDarkMode ? 'bg-gray-800 ' : 'bg-gray-100 '}`} pe-8 responsive-width">
-                    <!-- Current time, weather,  -->
-                    <section class="bg-white p-6 rounded-lg shadow-md mb-6">
-                        <div class="flex flex-wrap justify-between">
-                            <div class="w-full sm:w-auto">
-                                <div class="text-sm text-gray-800">Current Weather</div>
-                                <div class="text-lg font-medium text-black-700">Local time: 5:10 PM</div>
-                                <div class="flex items-center">
-                                    <img class="w-12 h-12" src="./images/176.jpg" alt="Weather Icon">
-                                    <div class="text-5xl font-semibold text-black pl-3">13.8</div>
-                                    <p class="text-2xl font-semibold text-gray-800  pr-2 mb-2">°C</p>
-                                    <div class="flex flex-col text-sm text-gray-500 pl-6">
-                                        <div class="text-gray-800">Patchy rain nearby</div>
-                                        <div class="text-gray-900">Feels Like 12.1°C</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-full 440px:w-auto mt-4 sm:mt-0 text-gray-600"></div>
-                        </div>
-                        <p class="mt-4 text-gray-800"></p>
-                    </section>
-                    <!-- Air quality, wind, humidity, vissibility, pressure x2 -->
-                    <section class="grid grid-cols-2 gap-6 lg:grid-cols-3 mb-6"></section>
-                    <!-- this section is button, 3 lines, title -->
-                    <div class="flex justify-start items-center mb-4 block 982px:hidden "></div>
-                    <!-- Sun and Moon summary?  -->
-                    <section class="bg-white text-gray-800 p-6 rounded-lg shadow-md pb-14"></section>
-                </div>
-                <div class="relative w-[40%] bg-white text-gray-800 p-6 rounded-lg shadow-md hidden 982px:block"></div>
-             </div>
+             
+
             </main>
         </div>
     </div>
