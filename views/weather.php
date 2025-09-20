@@ -212,7 +212,523 @@
                         </div> 
                     </section>
                 </div>
-                <div class="relative w-[40%] bg-white text-gray-800 p-6 rounded-lg shadow-md hidden lg:block"></div>
+                <div class="relative w-[40%] bg-white text-gray-800 p-6 rounded-lg shadow-md hidden lg:block">
+                    <div class="flex justify-start items-center mb-4">
+                        <div class="flex space-x-4">
+                            <button class="pb-1 text-black border-black border-b-2 font-semibold">Today</button>
+                            <button class="pb-1 text-gray-800">Tomorrow</button>
+                            <button class="pb-1 text-gray-800">10 Days</button>
+                        </div>
+                    </div>   
+                    <div>
+                        <div class="relative overflow-y-auto overflow-x-auto whitespace-nowrap pr-2">
+                            <!--12:00 am-->
+                            <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">12:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">10.8</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 9.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">1:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div>
+                                </div>
+                                    <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                    <div class="flex items-center space-x-2">
+                                        <div class="flex items-center">
+                                            <div class="text-gray-800 text-2xl font-semibold">10.6</div>
+                                            <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                        </div>
+                                        <div class="flex flex-col items-start">
+                                            <span class="text-sm text-gray-600">Wind: 9.4 km/h</span>
+                                            <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!-- 2:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">2:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div></div>
+                                    <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                    <div class="flex items-center space-x-2">
+                                        <div class="flex items-center">
+                                            <div class="text-gray-800 text-2xl font-semibold">10.6</div>
+                                            <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                        </div>
+                                        <div class="flex flex-col items-start">
+                                            <span class="text-sm text-gray-600">Wind: 9.4 km/h</span>
+                                            <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- 3:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">3:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">10.2</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 8.6 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">4:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">10.1</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 9 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 5:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">5:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">10.1</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 10.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 6:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">6:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">10.4</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 10.8 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 7:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/248.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">7:00AM</span>
+                                        <span class="font-semibold text-gray-700">Fog</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">11.6</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 12.2 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 8:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/122.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">8:00AM</span>
+                                        <span class="font-semibold text-gray-700">Overcast </span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">13.2</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 13.7 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 96%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 9:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/122.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">9:00AM</span>
+                                        <span class="font-semibold text-gray-700">Overcast </span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2">
+
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">14.8</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 15.1 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 93%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 10:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/122.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">10:00AM</span>
+                                        <span class="font-semibold text-gray-700">Overcast </span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">15.9</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 18.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 11:00 AM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/176.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">11:00AM</span>
+                                        <span class="font-semibold text-gray-700">Patchy rain nearby</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">16.6</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 19.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 87%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 12:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/176.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">12:00PM</span>
+                                        <span class="font-semibold text-gray-700">Patchy rain nearby</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">17.9</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 20.2 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 81%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/176.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">1:00PM</span>
+                                        <span class="font-semibold text-gray-700">Patchy rain nearby</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">19.5</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 20.2 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 74%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/176.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">2:00PM</span>
+                                        <span class="font-semibold text-gray-700">Patchy rain nearby</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center"><div class="text-gray-800 text-2xl font-semibold">21.3</div><p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p></div><div class="flex flex-col items-start"><span class="text-sm text-gray-600">Wind: 19.4 km/h</span><span class="text-sm text-gray-600">Humidity: 67%</span></div></div></div>
+                            <!-- 3:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">3:00PM</span>
+                                        <span class="font-semibold text-gray-700">Sunny</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">21.8</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 18.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 4:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">4:00PM</span>
+                                        <span class="font-semibold text-gray-700">Sunny</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">21.3</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 18.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 67%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 5:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">5:00PM</span>
+                                        <span class="font-semibold text-gray-700">Sunny</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2">
+
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">20.3</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 17.3 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 6:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">6:00PM</span>
+                                        <span class="font-semibold text-gray-700">Sunny</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">18.8</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 15.5 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 76%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 7:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">7:00PM</span>
+                                        <span class="font-semibold text-gray-700">Sunny</span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">17.4</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 13.7 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 83%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 8:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">8:00PM</span>
+                                        <span class="font-semibold text-gray-700">Clear </span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">16.8</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 14.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 87%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 9:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">9:00PM</span>
+                                        <span class="font-semibold text-gray-700">Clear </span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">16.5</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 14.4 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 89%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 10:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">10:00PM</span>
+                                        <span class="font-semibold text-gray-700">Clear </span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">16.1</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 14 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 92%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 11:00 PM -->
+                             <div class="flex justify-between items-center h-16 border-b-2 border-gray-300 pb-2 pt-2">
+                                <div class="flex items-center space-x-2">
+                                    <img class="w-12 h-12" src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="Weather Icon">
+                                    <div class="flex flex-col items-start overflow-hidden w-full sm:w-40 md:w-48 lg:w-56">
+                                        <span class="text-gray-700 text-sm font-semibold">11:00PM</span>
+                                        <span class="font-semibold text-gray-700">Clear </span>
+                                    </div>
+                                </div>
+                                <div class="h-12 border-l-2 border-gray-400 mx-2"></div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="flex items-center">
+                                        <div class="text-gray-800 text-2xl font-semibold">15.7</div>
+                                        <p class="text-gray-600 text-xl font-semibold pr-2 mb-2">°C</p>
+                                    </div>
+                                    <div class="flex flex-col items-start">
+                                        <span class="text-sm text-gray-600">Wind: 13.7 km/h</span>
+                                        <span class="text-sm text-gray-600">Humidity: 94%</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="absolute bottom-3 left-1/2 transform -translate-x-1/2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-7 h-7 text-gray-500">
+                            <path d="M12 16l-6-6h12l-6 6z"></path>
+                        </svg>
+                    </div>
+                </div>
              </div>
             </main>
         </div>
