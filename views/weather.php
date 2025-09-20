@@ -144,10 +144,73 @@
                                 <span class="text-2xl font-semibold ml-8">1015°</span>
                         </div>
                     </section>
-                    <!-- this section is button, 3 lines, title -->
+                    <!-- This shi is neat scrollable left right 3rd section thats on phones visible -->
                     <div class="flex justify-start items-center mb-4 block lg:hidden "></div>
                     <!-- Sun and Moon summary?  -->
-                    <section class="bg-white text-gray-800 p-6 rounded-lg shadow-md pb-14"></section>
+                    <section class="bg-white text-gray-800 p-6 rounded-lg shadow-md pb-14">
+                        <div class="flex justify-start items-center mb-4">
+                            <span>Sun &amp; Moon Summary</span>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between items-start">
+                            <div class="flex items-center">
+                                <img src="./images/sun.gif" alt="Sun Icon" class="size-12">
+                                <div class="flex flex-col text-sm  pl-5">
+                                    <div>Air Quality</div>
+                                    <span class="text-black text-xl font-semibold ">1</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="flex items-center space-x-4 pt-4 sm:pt-0 sm:w-[70%]">
+                                     <div class="flex flex-col items-center">
+                                        <img src="./images/field.gif" alt="Sunrise Icon" class="w-6 h-6 mb-1">
+                                        <div class=" text-sm">Sunrise</div>
+                                        <span class="text-blank text-sm font-semibold ">07:00 AM</span>
+                                    </div>
+                                    <div class="relative w-48 h-14 overflow-hidden">
+                                        <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 100 50">
+                                            <path d="M 10,50 A 40,40 0 1 1 90,50" fill="none" stroke="#e5e5e5" stroke-width="10"></path>
+                                            <path d="M 10,50 A 40,40 0 1 1 90,50" fill="none" stroke="#f59e0b" stroke-width="10" stroke-dasharray="126" stroke-dashoffset="67.54999999999998"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="flex flex-col items-center">
+                                        <img src="./images/sunset.gif" alt="Sunset Icon" class="w-6 h-6 mb-1">
+                                        <div class=" text-sm">Sunset</div>
+                                        <span class="text-black text-sm font-semibold ">07:23 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row justify-between items-start pt-12">
+                            <div class="flex items-center">
+                                <img src="./images/moon.gif" alt="Moon Icon" class="size-12">
+                                <div class="flex flex-col text-sm  pl-5">
+                                    <div>Air Quality</div>
+                                    <span class="text-black text-xl font-semibold ">1</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="flex items-center space-x-4 pt-6 sm:pt-0 sm:w-[70%]">
+                                    <div class="flex flex-col items-center">
+                                        <img src="./images/moon-rise.gif" alt="Moonrise Icon" class="w-6 h-6 mb-1">
+                                        <div class=" text-sm">Moonrise</div>
+                                        <span class="text-black text-sm font-semibold ">04:57 AM</span>
+                                    </div>
+                                        <div class="relative w-48 h-14 overflow-hidden">
+                                            <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 100 50">
+                                                <path d="M 10,50 A 40,40 0 1 1 90,50" fill="none" stroke="#e5e5e5" stroke-width="10"></path>
+                                                <path d="M 10,50 A 40,40 0 1 1 90,50" fill="none" stroke="#0D92F4" stroke-width="10" stroke-dasharray="126" stroke-dashoffset="59.91999999999999"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="flex flex-col items-center">
+                                            <img src="./images/moon-set.gif" alt="Moonset Icon" class="w-6 h-6 mb-1">
+                                            <div class=" text-sm">Moonset</div>
+                                            <span class="text-black text-sm font-semibold">07:03 PM</span>
+                                        </div>
+                                    </div>
+                            </div>
+
+                        </div> 
+                    </section>
                 </div>
                 <div class="relative w-[40%] bg-white text-gray-800 p-6 rounded-lg shadow-md hidden lg:block"></div>
              </div>
