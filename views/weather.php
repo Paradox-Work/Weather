@@ -95,18 +95,61 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full 440px:w-auto mt-4 sm:mt-0 text-gray-600"></div>
+                            <div class="w-full sm:w-auto mt-4 sm:mt-0 text-gray-600"></div>
                         </div>
                         <p class="mt-4 text-gray-800"></p>
                     </section>
                     <!-- Air quality, wind, humidity, vissibility, pressure x2 -->
-                    <section class="grid grid-cols-2 gap-6 lg:grid-cols-3 mb-6"></section>
+                    <section class="grid grid-cols-2 gap-6 lg:grid-cols-3 mb-6">
+                        <div class=" bg-white p-4 rounded-lg shadow-md flex flex-col items-start">
+                            <div class="flex items-center space-x-2">
+                                <img src="./images/clouds.gif" alt="Description of the image" class="size-6">
+                                <span class="text-gray-800">Air Quality </span>
+                            </div>
+                            <span class="text-2xl text-black font-semibold ml-8">1</span>
+                        </div>
+                          <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md flex flex-col items-start">
+                            <div class="flex items-center space-x-2">
+                                <img src="./images/wind.gif" alt="Description of the image" class="size-6">
+                                <span class="text-gray-800">Wind</span>
+                            </div>
+                            <span class="text-2xl font-semibold ml-8">18.4 km/h</span>
+                          </div>
+                            <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md flex flex-col items-start">
+                                <div class="flex items-center space-x-2">
+                                <img src="./images/humidity.gif" alt="Description of the image" class="size-6">
+                                <span class="text-gray-800">Humidity</span>
+                                </div>
+                                <span class="text-2xl font-semibold ml-8">87%</span>
+                            </div>
+                             <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md flex flex-col items-start">
+                                <div class="flex items-center space-x-2">
+                                    <img src="./images/vision.gif" alt="Description of the image" class="size-6">
+                                    <span class="text-gray-800">Visibility</span>
+                                </div>
+                                    <span class="text-2xl font-semibold ml-8"> 10 km</span>
+                                </div>
+                           <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md flex flex-col items-start">
+                            <div class="flex items-center space-x-2">
+                                <img src="./images/air-pump.gif" alt="Description of the image" class="size-6">
+                                <span class="text-gray-800">Pressure</span>
+                            </div>
+                                <span class="text-2xl font-semibold ml-8"> 29.97 in</span>
+                           </div>
+                         <div class="bg-white text-gray-800 p-4 rounded-lg shadow-md flex flex-col items-start">
+                            <div class="flex items-center space-x-2">
+                                <img src="./images/air-pump.gif" alt="Description of the image" class="size-6">
+                                <span class="text-gray-800">Pressure</span>
+                            </div>
+                                <span class="text-2xl font-semibold ml-8">1015°</span>
+                        </div>
+                    </section>
                     <!-- this section is button, 3 lines, title -->
-                    <div class="flex justify-start items-center mb-4 block 982px:hidden "></div>
+                    <div class="flex justify-start items-center mb-4 block lg:hidden "></div>
                     <!-- Sun and Moon summary?  -->
                     <section class="bg-white text-gray-800 p-6 rounded-lg shadow-md pb-14"></section>
                 </div>
-                <div class="relative w-[40%] bg-white text-gray-800 p-6 rounded-lg shadow-md hidden 982px:block"></div>
+                <div class="relative w-[40%] bg-white text-gray-800 p-6 rounded-lg shadow-md hidden lg:block"></div>
              </div>
             </main>
         </div>
